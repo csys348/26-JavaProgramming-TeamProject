@@ -262,7 +262,3 @@ sequenceDiagram
 - 통합 백엔드(권장): `oiot.backend.BackendCliServer` (CLI + HTTP)
 
 ---
-
-
-
-HTTPS 403이 나오면: GitHub에 로그인한 계정이 해당 repo에 권한이 있는지 확인하거나, SSH 원격(`git@github.com:csys348/26-JavaProgramming-TeamProject.git`)과 배포 키/PAT를 설정한다.
