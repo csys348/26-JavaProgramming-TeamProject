@@ -282,3 +282,18 @@ sequenceDiagram
 ## License / Course
 
 26-JavaProgramming-TeamProject coursework.
+
+---
+
+## Git: 원격 저장소에 반영하기
+
+로컬에서 커밋이 준비된 경우, **저장소 소유자(`csys348`) 계정** 또는 해당 저장소에 **쓰기 권한이 있는 계정**으로 푸시한다.
+
+```bash
+cd /path/to/java-teamp
+git remote add origin https://github.com/csys348/26-JavaProgramming-TeamProject.git
+git branch -M main
+git push -u origin main
+```
+
+HTTPS 403이 나오면: GitHub에 로그인한 계정이 해당 repo에 권한이 있는지 확인하거나, SSH 원격(`git@github.com:csys348/26-JavaProgramming-TeamProject.git`)과 배포 키/PAT를 설정한다.
