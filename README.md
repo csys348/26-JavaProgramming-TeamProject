@@ -112,11 +112,7 @@ classDiagram
 
 ---
 
-## User flows (Mermaid) — 캡처 후 삭제용
-
-> **사용 방법:** 각 Mermaid 블록을 화면에 렌더링한 뒤 스크린샷을 찍어 `readme_img/`에 저장한다.  
-> 파일명 예: `readme_img/그림-플로우-통합.png`, `readme_img/그림-시퀀스-API.png`  
-> **이미지를 README에 넣은 뒤에는 아래 해당 ` ```mermaid` … ` ``` ` 블록 전체를 삭제하면 된다.**
+## User flows (Mermaid)
 
 ### 1) 전체 시스템 플로우 (백엔드 선행)
 
@@ -209,7 +205,6 @@ sequenceDiagram
 
 ## Screenshots of program execution with explanation
 
-아래 이미지는 `readme_img/`에 포함된 실행 캡처이다. (경로에 공백이 있으면 GitHub에서 `<...>` 형식으로 표시한다.)
 
 ### 그림 1 — 프로젝트(파일) 구조
 
@@ -268,32 +263,6 @@ sequenceDiagram
 
 ---
 
-## Document map (통합 안내)
 
-| 파일 | 설명 |
-|------|------|
-| **README.md** (본 문서) | 프로젝트 제목, 멤버, 설명, UML, 사용자 가이드, 실행 스크린샷, Mermaid 플로우 |
-| `final_project_temp.md` | 본 README와 동일한 통합본 (제출용 복사본) |
-| `PROJECT_OVERVIEW.md` | 기술 요약·명령어 레퍼런스 (짧은 버전) |
-| `FINAL_REPORT_TEMPLATE.md` | 초기 템플릿; 상세는 README로 통합됨 |
-
----
-
-## License / Course
-
-26-JavaProgramming-TeamProject coursework.
-
----
-
-## Git: 원격 저장소에 반영하기
-
-로컬에서 커밋이 준비된 경우, **저장소 소유자(`csys348`) 계정** 또는 해당 저장소에 **쓰기 권한이 있는 계정**으로 푸시한다.
-
-```bash
-cd /path/to/java-teamp
-git remote add origin https://github.com/csys348/26-JavaProgramming-TeamProject.git
-git branch -M main
-git push -u origin main
-```
 
 HTTPS 403이 나오면: GitHub에 로그인한 계정이 해당 repo에 권한이 있는지 확인하거나, SSH 원격(`git@github.com:csys348/26-JavaProgramming-TeamProject.git`)과 배포 키/PAT를 설정한다.
