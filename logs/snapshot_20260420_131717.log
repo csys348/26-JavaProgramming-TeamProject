@@ -1,0 +1,10 @@
+[2026-04-20 13:17:17] System Snapshot
+=== O-IoT System Status ===
+[L-01] Living Room Light | power=OFF, brightness=50%
+[T-01] Main Thermostat | power=OFF, current=23.0C, target=23.0C
+[S-01] Front Door Sensor | power=OFF, sensitivity=5, motion=CLEAR
+[A-01] Bedroom Air Purifier | power=OFF, fan=3, airQuality=70
+[B-01] Living Room Blind | power=OFF, openness=50%
+[L-02] room_test | power=OFF, brightness=50%
+[L-03] room_test2 | power=OFF, brightness=50%
+
